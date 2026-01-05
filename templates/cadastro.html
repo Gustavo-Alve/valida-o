@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/cadastro.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Criar Conta</h2>
+    
+        <form>
+            <input type="text" id="user" placeholder="Usuário" required>
+            <input type="password" id="password" placeholder="Senha" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+        <p class="voltar">
+            Já tem conta? <a href="/">Entrar</a>
+        </p>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/cadastro.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin</title>
+    <style>
+
+        body {
+            background-color:#FFEE58;
+        }
+        .gif {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10rem;
+        }
+        img {
+            width:30%;
+            height:auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+    <body>
+
+        <div class="gif">
+            <img src="{{ url_for('static',filename ='assets/leroy-worst-admin.gif' )}}" alt="">
+        </div>
+    </body>
+</html>
